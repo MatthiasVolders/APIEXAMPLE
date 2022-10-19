@@ -3,7 +3,7 @@ require('dotenv').config();
 const mongoose = require('mongoose');
 const serverless = require('serverless-http');
 
-/** const Campus = require('./models/campus');*/
+const Campus = require('./models/campus');
 
 const router = require('./routes');
 
